@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.wrapper {
+    width:  100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(https://cdn.pixabay.com/animation/2023/06/06/06/51/06-51-32-766_512.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+   
+
+
+
+.card{
+    height: 650px;
+    width: 400px;
+    background-color: grey;
+    background-image: url(https://media.tenor.com/uY3NcfjqZ78AAAAM/chettab-stars.gif);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px, 10px, 15px;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    background-image : url(https://i.pinimg.com/736x/d1/b7/d7/d1b7d7bd674ad3a053e903613e632624.jpg); 
+    border-radius: 2px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header{
+    margin-top: 20px;
+    height: 45px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-style: outset;
+    border-color: #b4a645;
+    box-shadow: 3px 3px 5px;
+}
+h2{
+    color: #ffffff;
+}
+
+h2 span {
+    font-size: 2rem;
+}
+.element{
+    width: 30px ;
+    height: 30px ;
+    background-color: rgb(85, 25, 145);
+    border-radius: 50%;
+    background-image: url("./assets/bola_preta.png");
+}
+figure {
+    margin-top: 10px;
+    height: 60%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px outset rgb(140, 98, 156);
+    background-image: url(https://i.pinimg.com/originals/de/37/ac/de37acc23a1971294a020fffca413867.gif);
+}
+.bg-figure{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(https://pa1.aminoapps.com/6609/6984bf1ae569dbc37e15375d7b688466555a7373_hq.gif);
+    background-position: center  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.circle{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.circle img {
+    height: auto;
+    width: 100%;
+}
+.character {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: -40px;
+
+}
+.character img{
+    width: auto;
+    height: 110%;
+  
+}
+
+.star-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    height: 30px;
+    width: 280px;
+}
+
+.star{
+    width: 25px;
+    height: 25px;
+    background-image: url("assets/uma_bola_cortada.png");
+}
+
+.description-container{
+    margin-top: 10px;
+    display: flex;
+    height: 120px;
+    width: 330px;
+    border: 7px ridge #8d7d4a;
+    background-image: linear-gradient(to bottom right,#BFB55F, #8E7D19,#BFB55F,#9A8C2B,#BFB55F);
+    
+}
+
+.description-content{
+    display: flex;
+    flex-direction: column;
+    height: 115px;
+    width: 100%;
+    border: brown;
+}
+
+.points-container{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.type{
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.atak{
+    font-weight: bold;
+
+}
+
+.description{
+    margin-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: smaller;
+
+}
+
+hr{ 
+    width:100%; height: 1px; background: #000000;
+    
+}
